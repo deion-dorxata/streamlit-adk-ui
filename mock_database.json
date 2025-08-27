@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "user_id": "admin",
+      "plan": 2,
+      "plan_name": "Pro Plan",
+      "nickname": "Deion",
+      "toolsets": ["general", "composio_gmail"]
+    },
+    {
+      "user_id": "user",
+      "plan": 1,
+      "plan_name": "Basic Plan",
+      "nickname": "John",
+      "toolsets": ["general"]
+    },
+    {
+      "user_id": "test",
+      "plan": 3,
+      "plan_name": "Enterprise Plan",
+      "nickname": "Jane",
+      "toolsets": ["general", "composio_gmail", "advanced_analytics"]
+    }
+  ]
+}
