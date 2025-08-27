@@ -30,10 +30,20 @@ Each example folder contains a `.env.example` file. For each project you want to
 
 1. Navigate to the example folder
 2. Rename `.env.example` to `.env` 
-3. Open the `.env` file and replace the placeholder with your API key:
+3. Open the `.env` file and replace the placeholder with your Google API key:
 
-For ClickUp specifically, you'll need to create an app and generate a client_id and client_secret. Follow the guide here: [ClickUp Authentication Guide](https://developer.clickup.com/docs/authentication#oauth-flow)
 
 ### Testing
-Run `adk web` and access the ADK dev UI.
+
+Replace the sample_agent directory with your own agent.
+
+Run `python main.py` to start the Fast API server. 
+
+Next, open another terminal and run `streamlit run app.py` to access the Streamlit chat interface.
+
+For now, the app uses a dummy sign-in screen to simulate user authentication. 
+
+Initial session state is retrieved by using logged-in user's credentials to access a mock database implemeneted in json.
+
+
 
